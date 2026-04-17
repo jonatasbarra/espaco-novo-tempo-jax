@@ -24,7 +24,7 @@ Como este é um projeto estático (HTML/CSS/JS), não é necessária uma instala
 
 1. Clone este repositório para a sua máquina local:
 \`\`\`bash
-git clone https://github.com/SEU-USUARIO/novo-tempo-jax.git
+git clone https://github.com/jonatasbarra/espaco-novo-tempo-jax
 \`\`\`
 
 2. Aceda à pasta do projeto:
