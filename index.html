@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Website da Igreja Adventista Espaço Novo Tempo Jax em Jacksonville, Flórida.">
+    <title>Espaço Novo Tempo Jax</title>
+    <link rel="preconnect" href="https://images.unsplash.com">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header" id="topo">
+        <a class="brand" href="#inicio" aria-label="Espaço Novo Tempo Jax">
+            <span class="brand-mark">NT</span>
+            <span>
+                <strong>Espaço Novo Tempo Jax</strong>
+                <small data-i18n="brand-subtitle">Igreja Adventista em Jacksonville</small>
+            </span>
+        </a>
+
+        <nav class="desktop-nav" aria-label="Navegacao principal">
+            <a href="#inicio" data-i18n="nav-home">Início</a>
+            <a href="#cultos" data-i18n="nav-services">Cultos</a>
+            <a href="#comunidade" data-i18n="nav-community">Comunidade</a>
+            <a href="#biblia" data-i18n="nav-bible">Bíblia</a>
+            <a href="#contato" data-i18n="nav-contact">Contato</a>
+        </nav>
+
+        <div class="language-switch" aria-label="Selecionar idioma">
+            <button type="button" class="active" data-lang="pt">PT</button>
+            <button type="button" data-lang="en">EN</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="inicio">
+            <div class="hero-content reveal">
+                <p class="eyebrow" data-i18n="hero-kicker">Todos são bem-vindos</p>
+                <h1 data-i18n="hero-title">Um lugar para adorar, aprender e servir.</h1>
+                <p class="hero-text" data-i18n="hero-text">
+                    Junte-se a nossa comunidade brasileira em Jacksonville para crescer na fé, criar amizades e viver a Palavra de Deus.
+                </p>
+                <div class="hero-actions">
+                    <a class="button primary" href="#cultos" data-i18n="hero-primary">Ver horários</a>
+                    <a class="button secondary" href="#contato" data-i18n="hero-secondary">Fale conosco</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="quick-info" aria-label="Informacoes principais">
+            <article class="info-item reveal">
+                <span data-i18n="info-day-label">Culto principal</span>
+                <strong data-i18n="info-day">Sábado, 10:00 AM</strong>
+            </article>
+            <article class="info-item reveal">
+                <span data-i18n="info-city-label">Local</span>
+                <strong>Jacksonville, FL</strong>
+            </article>
+            <article class="info-item reveal">
+                <span data-i18n="info-study-label">Estudos bíblicos</span>
+                <strong data-i18n="info-study">Gratuitos e em grupo</strong>
+            </article>
+        </section>
+
+        <section class="section split" id="cultos">
+            <div class="section-copy reveal">
+                <p class="eyebrow" data-i18n="services-kicker">Encontros semanais</p>
+                <h2 data-i18n="services-title">Cultos com louvor, estudo e comunhão.</h2>
+                <p data-i18n="services-text">
+                    Aos sábados nos reunimos para estudar a Bíblia, adorar juntos e receber visitantes com alegria.
+                </p>
+                <ul class="schedule-list" id="schedule-list"></ul>
+            </div>
+            <div class="image-panel reveal">
+                <img
+                    src="https://images.unsplash.com/photo-1438232992991-995b7058bbb3?auto=format&fit=crop&w=1100&q=80"
+                    alt="Pessoas reunidas em um momento de adoracao">
+            </div>
+        </section>
+
+        <section class="section community" id="comunidade">
+            <div class="section-heading reveal">
+                <p class="eyebrow" data-i18n="community-kicker">Vida em comunidade</p>
+                <h2 data-i18n="community-title">Espaços para cada fase da caminhada.</h2>
+            </div>
+            <div class="group-grid" id="group-grid"></div>
+        </section>
+
+        <section class="section bible-band" id="biblia">
+            <div class="bible-content reveal">
+                <p class="eyebrow" data-i18n="bible-kicker">Estude a Bíblia</p>
+                <h2 data-i18n="bible-title">Comece uma conversa simples sobre fé.</h2>
+                <p data-i18n="bible-text">
+                    Você pode participar de estudos bíblicos gratuitos, presenciais ou online, no seu ritmo.
+                </p>
+                <a class="button primary" href="mailto:contato@espaconovotempojax.com" data-i18n="bible-button">Quero participar</a>
+            </div>
+        </section>
+
+        <section class="section contact" id="contato">
+            <div class="section-copy reveal">
+                <p class="eyebrow" data-i18n="contact-kicker">Contato</p>
+                <h2 data-i18n="contact-title">Venha nos visitar em Jacksonville.</h2>
+                <p data-i18n="contact-text">
+                    Envie uma mensagem para confirmar o proximo encontro ou pedir mais informacoes.
+                </p>
+            </div>
+            <div class="contact-list reveal">
+                <a href="mailto:contato@espaconovotempojax.com">
+                    <span>Email</span>
+                    <strong>contato@espaconovotempojax.com</strong>
+                </a>
+                <a href="https://www.google.com/maps/search/?api=1&query=Jacksonville%2C%20FL" target="_blank" rel="noreferrer">
+                    <span data-i18n="contact-location-label">Localização</span>
+                    <strong>Jacksonville, FL</strong>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; <span id="current-year"></span> Espaço Novo Tempo Jax.</p>
+        <a href="#topo" data-i18n="footer-top">Voltar ao topo</a>
+    </footer>
+
+    <nav class="mobile-nav" aria-label="Navegacao mobile">
+        <a href="#inicio" data-i18n="mobile-home">Início</a>
+        <a href="#cultos" data-i18n="mobile-services">Cultos</a>
+        <a href="#comunidade" data-i18n="mobile-community">Grupos</a>
+        <a href="#biblia" data-i18n="mobile-bible">Bíblia</a>
+        <a href="#contato" data-i18n="mobile-contact">Contato</a>
+    </nav>
+
+    <script src="script.js"></script>
+</body>
+</html>
