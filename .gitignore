@@ -1,0 +1,12 @@
+# Ficheiros do Sistema Operativo
+.DS_Store
+Thumbs.db
+
+# Ficheiros de Editores de Código (ex: VS Code)
+.vscode/
+.idea/
+
+# Ficheiros de log (caso venha a usar npm no futuro)
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
