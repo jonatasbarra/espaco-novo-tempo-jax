@@ -81,20 +81,20 @@ a {
 }
 
 .brand strong {
-    font-size: 0.98rem;
+    font-size: 1.25rem;
     line-height: 1.15;
 }
 
 .brand small {
     color: var(--muted);
-    font-size: 0.78rem;
+    font-size: 1 rem;
 }
 
 .desktop-nav {
     display: flex;
     align-items: center;
     gap: clamp(14px, 2vw, 28px);
-    font-size: 0.95rem;
+    font-size: 1 rem;
 }
 
 .desktop-nav a,
@@ -145,7 +145,7 @@ a {
     color: #ffffff;
     background:
         linear-gradient(90deg, rgba(18, 30, 23, 0.88), rgba(18, 30, 23, 0.58) 42%, rgba(18, 30, 23, 0.15)),
-        url("https://images.unsplash.com/photo-1506869640319-fe1a24fd76dc?auto=format&fit=crop&w=1800&q=80") center / cover;
+        url("assets/background-home.png") center / cover;
 }
 
 .hero-content {
